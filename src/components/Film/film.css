@@ -1,5 +1,26 @@
-.Cer{
-    border: width 2px;
-    border-color: aquamarine;
-    border-style: solid;
+ .Cer{
+    width: 60%;
+    margin:auto;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: center;
+} 
+.link{
+    text-decoration: none;
+    box-shadow: none;
+    color: rgb(216, 204, 109);
+}
+.card{
+    background-color: #ffffff;
+    width: 270px;
+    height: 230px;
+    margin: 20px 10px 10px 10px;
+}
+.res{
+    max-width:100%; 
+    max-height:100%;
 }

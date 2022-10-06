@@ -1,9 +1,8 @@
 import React from "react";
-function User() {
-  
+function FilmDetails() {
     return(
         <div>
-            kullanıcı 
+            kullanıcı {}
         </div>
     )
 }

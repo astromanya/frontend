@@ -1,13 +1,13 @@
 import React,{useState, useEffect} from"react";
-
+import "./User"
 
 function Users() {
     const [error, setError]= useState(null);
     const [isLoaded, setIsLoaded]= useState(false);
     const [usersList, setUsersList]= useState([]);
-
+   
     useEffect(() => {
-        fetch("/comments")
+        fetch("/users")
         .then(res => res.json())
         .then(
                 (result) =>{
